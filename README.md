@@ -25,3 +25,27 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+# steps
+## creer une nouvelle appli
+> ng new tdd-demo
+
+## lancer le test unitaire
+> ng test # ou npm test
+
+## lancer le test d'integration
+> ng e2e # ou npm e2e
+
+## creer le composant user-story
+> ng g c user-story
+
+## creer le model user-story
+> ng g i user-story model
+
+## creer le service user-story
+> ng g s user-story
+
+
+## resources
+- [angular training book](https://angular-2-training-book.rangle.io/testing/toolchain)
+- [shcema](https://github.com/foundersandcoders/testing-tdd-intro/blob/master/README.md)
