@@ -1,0 +1,6 @@
+<ul class="card-container">
+    <li class="card" *ngFor="let us of listeUs">
+      <!-- <span>{{ us | json }}</span> -->
+      <span>{{us.titre}}: {{us.description}} ({{us.complexite}})</span>
+    </li>
+</ul>

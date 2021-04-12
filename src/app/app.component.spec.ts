@@ -16,16 +16,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'tdd-in-action'`, () => {
+  it(`should have as title 'User stories'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('tdd-in-action');
+    expect(app.title).toEqual('User stories');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement;
-    expect(compiled.querySelector('.content span').textContent).toContain('tdd-in-action app is running!');
+    expect(compiled.querySelector('.content span').textContent).toContain('Liste des \'User stories\'');
   });
 });
